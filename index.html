@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nico se Kombuis</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #333;
+      line-height: 1.6;
+      background-color: #fafafa;
+    }
+
+    header {
+      background-color: #b81d24;
+      color: #fff;
+      padding: 1.5rem 0;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      background-color: #8a1319;
+      margin: 0;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      background: url('catering-hero.jpg') center/cover no-repeat;
+      height: 60vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3em;
+    }
+
+    section {
+      padding: 3rem 10%;
+      background-color: #fff;
+      margin-bottom: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .about, .services, .testimonials, .gallery, .contact {
+      background-color: #fff;
+    }
+
+    h2 {
+      text-align: center;
+      color: #b81d24;
+      margin-bottom: 1rem;
+    }
+
+    .services ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+
+    .services li {
+      background-color: #f8f8f8;
+      padding: 1rem;
+      border-radius: 6px;
+      width: 250px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .gallery-images {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    .gallery-images img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+
+    .testimonials blockquote {
+      font-style: italic;
+      margin: 1rem auto;
+      text-align: center;
+      max-width: 600px;
+      background: #f4f4f4;
+      padding: 1rem;
+      border-left: 4px solid #b81d24;
+    }
+
+    form {
+      max-width: 500px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+    }
+
+    form input, form textarea {
+      margin: 0.5rem 0;
+      padding: 0.8rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    form button {
+      background-color: #b81d24;
+      color: #fff;
+      padding: 0.8rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    form button:hover {
+      background-color: #8a1319;
+    }
+
+    footer {
+      background-color: #8a1319;
+      color: #fff;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Nico se kombuis</h1>
+    <p>Outstanding • Fresh • Memorable</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="hero">
+    <h1>Delicious Experiences for Every Occasion</h1>
+  </div>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+      At Nico se kombuis, we bring creativity and passion to every event. From weddings to
+      corporate gatherings, our chefs craft menus tailored to your taste and theme using only the freshest ingredients.
+    </p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li><strong>Wedding Catering</strong><br>Outstanding menus and full-service setups.</li>
+      <li><strong>Corporate Events</strong><br>Professional catering for meetings and Business gatherings.</li>
+      <li><strong>Private Parties</strong><br>From birthdays to anniversaries, we handle it all.</li>
+      <li><strong>Buffets & Platters</strong><br>Flexible, affordable options for any crowd size.</li>
+    </ul>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-images">
+      <img src="dish1.jpg" alt="Appetizer display">
+      <img src="dish2.jpg" alt="Buffet setup">
+      <img src="dish3.jpg" alt="Dessert table">
+      <img src="dish4.jpg" alt="Wedding catering">
+    </div>
+  </section>
+
+  <section id="testimonials" class="testimonials">
+    <h2>What Our Clients Say</h2>
+    <blockquote>
+      “Delish Catering made our wedding day perfect. The food was incredible and the staff were amazing!”  
+      <br>– Sarah & Tom
+    </blockquote>
+    <blockquote>
+      “Professional, punctual, and delicious! Our corporate gala was a success thanks to their team.”  
+      <br>– GreenTech Solutions
+    </blockquote>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p style="text-align:center;">
+      Have an event in mind? Let’s make it unforgettable.
+    </p>
+    Debbe kruger <b>082 853 9709 </b>
+	</br>
+	Nico Kruger <b>083 459 5303</b>
+	</br>
+	<i>For any event, any occasion </i>
+  </section>
+
+  <footer>
+    <p>&copy; Nico se Kombuis | info@delishcatering.com | 082 853 9709</p>
+  </footer>
+
+</body>
+</html>
+
